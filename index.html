@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/18ee0ade15.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="w-full text-white bg-[#2D2104] h-20  px-5">
+      <div class="container mx-auto flex justify-between items-center h-full">
+        <a href="/" c
+          ><img
+            src="img/logo.webp"
+            alt="LOGO"
+            class="w-24 h-20 object-contain"
+        /></a>
+        <ul class="flex relative right-48 text-large space-x-24"><li>men <i class="fa-solid fa-angle-down"></i></li><li>women <i class="fa-solid fa-angle-down"></i></li><li>kids <i class="fa-solid fa-angle-down"></i></li></ul>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <input
+                class="border border-brown-300 w-[20vw] px-2 h-[2rem]  p-4 border text-[#000000]    rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-white-200"
+                type="text"
+                placeholder="Search"
+                id="searchBar"
+              />
+            </li>
+            <li>
+              <a href="/"><i class="fa-solid fa-heart text-2xl"></i></a>
+            </li>
+            <li>
+              <a href="/about"><i class="fa-solid fa-bag-shopping text-2xl"></i></i></a>
+            </li>
+            <li>
+              <a href="/contact"><i class="fa-solid fa-user text-2xl"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main bg-[#8f8874]>  <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shirt">
+        <img src="img/shirt-1.webp" alt="Shirt" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shirt</h2>
+        <p class="text-gray-600">$19.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shirt">
+        <img src="img/shirt-2.webp" alt="Shirt" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shirt</h2>
+        <p class="text-gray-600">$19.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shirt">
+        <img src="img/shirt-3.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shirt</h2>
+        <p class="text-gray-600">$19.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shirt">
+        <img src="img/shoes-.jpg" alt="Shirt" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shoes</h2>
+        <p class="text-gray-600">$19.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shoes">
+        <img src="img/shoes-1.jpg" alt="Shoes" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shoes</h2>
+        <p class="text-gray-600">$49.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shoes">
+        <img src="img/shoes-2.jpeg" alt="Shoes" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shoes</h2>
+        <p class="text-gray-600">$49.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="shoes">
+        <img src="img/shoes-3.jpg" alt="Shoes" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Shoes</h2>
+        <p class="text-gray-600">$49.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="jacket">
+        <img src="img/j-1.avif" alt="Jacket" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Jacket</h2>
+        <p class="text-gray-600">$69.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="jacket">
+        <img src="img/j-2.jpg" alt="Jacket" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Jacket</h2>
+        <p class="text-gray-600">$69.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="jacket">
+        <img src="img/j-3.jpg" alt="Jacket" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Jacket</h2>
+        <p class="text-gray-600">$69.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="jacket">
+        <img src="img/j-4.jpg" alt="Jacket" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Jacket</h2>
+        <p class="text-gray-600">$69.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="hat">
+        <img src="img/hat-1.avif" alt="Hat" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Hat</h2>
+        <p class="text-gray-600">$14.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="hat">
+        <img src="img/hat-2.jpg" alt="Hat" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Hat</h2>
+        <p class="text-gray-600">$14.99</p>
+      </div>
+      <div class="product-item bg-white p-4 rounded-lg shadow-md" data-name="hat">
+        <img src="img/hat-3.jpeg" alt="Hat" class="w-full h-48 object-cover rounded-lg mb-4">
+        <h2 class="text-xl font-semibold">Hat</h2>
+        <p class="text-gray-600">$14.99</p>
+      </div>
+      <!-- Add more products as needed -->
+    </div>
+    </main>
+  </body>
+</html>
